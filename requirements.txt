@@ -1,10 +1,10 @@
 streamlit
 pandas
-numpy
+numpy<2.0  # Ensure compatibility with TensorFlow
 plotly
 scikit-learn
 requests
 pycountry
-tensorflow
+tensorflow==2.13.0  # Stable with numpy<2
 prophet
 openpyxl
